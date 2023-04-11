@@ -20,14 +20,14 @@ p {
 
 h1,
 h2,
-h3{
+h3 {
     font-family: Roboto Slab;
     font-style: normal;
     letter-spacing: 1.49px;
     font-weight: 400;
 }
 
-p{
+p {
     font-family: Source Code Pro;
     letter-spacing: .4px;
 }
@@ -39,20 +39,20 @@ a {
 
 #Header a {
     font-family: Roboto Slab;
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
     font-weight: bold;
 }
 
 
-#about-me-content{
+#about-me-content {
     display: flex;
     flex-direction: row;
     width: 100%;
-    align-content:center;
+    align-content: center;
     justify-content: center;
 }
 
-#profile-img{
+#profile-img {
     z-index: -1;
     max-width: 200px;
     max-height: 200px;
@@ -62,14 +62,14 @@ a {
     transform: scaleX(-1);
     /*background-color: #5c5c5c;*/
     border-radius: 50%;
-    box-shadow: 0px 0px 10px rgb(80,80,80);
+    box-shadow: 0px 0px 10px rgb(80, 80, 80);
 }
 
 img {
     user-select: none;
 }
 
-.shark{
+.shark {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,71 +80,77 @@ img {
     margin-bottom: 80%;
 }
 
-#sharkpoll-img{
+#sharkpoll-img {
     /*max-width: 720px;*/
     width: 50vw;
     cursor: pointer;
 }
 
-.layer-2{
-   width: 100%;
-   z-index: 1;
+.layer-2 {
+    width: 100%;
+    z-index: 1;
 }
 
-.shark-object{
+.shark-object {
     width: 100%;
 }
 
-#blahaj{
+#blahaj {
     /*max-width: 350px;*/
-    width: 24.3vw;
+    /*width: 24.3vw;*/
+    height: 22.2vh;
     transform: rotate(125deg);
     position: absolute;
     left: 15%;
-    top:1410px;
+    top: 1410px;
     filter: brightness(60%);
     z-index: 1;
-    pointer-events: none; 
+    pointer-events: none;
 
 }
 
 #lock {
     /*max-width: 100px;*/
-    width: 6.95vw;
+    /*width: 6.95vw;*/
+    height: 7.85vh;
+
     transform: rotate(-40deg);
     position: absolute;
     left: 65%;
-    top:1460px;
-    filter:brightness(75%);
+    top: 1460px;
+    filter: brightness(75%);
     z-index: 1;
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 #ballot {
-   /*max-width: 140px;*/
-   width: 7.7vw;
-   transform: rotate(25deg);
-   position: absolute;
-   left: 28%;
-   top:2090px;
-   filter: brightness(50%);
-   z-index: 1;
+    /*max-width: 140px;*/
+    /*width: 7.7vw;*/
+    height: 13.9vh;
+
+    transform: rotate(25deg);
+    position: absolute;
+    left: 28%;
+    top: 2090px;
+    filter: brightness(50%);
+    z-index: 1;
 
 }
 
 
 #ballotbox {
     /*max-width: 140px;*/
-    width: 15vw;
+    /*width: 15vw;*/
+    height: 19vh;
     transform: rotate(112deg);
     position: absolute;
     left: 63%;
-    top:2130px;
+    top: 2130px;
     filter: brightness(50%);
     z-index: 1;
- }
+}
 
-#text-shark-box{
+#text-shark-box {
     position: absolute;
     max-width: 350px;
     padding: 15px;
@@ -153,15 +159,15 @@ img {
     top: 4200px;
 }
 
-#text-timebomb-box{
+#text-timebomb-box {
     max-width: 350px;
     position: absolute;
     left: 12%;
-    top:3920px;
+    top: 3920px;
     z-index: 1;
 }
 
-#sharkpoll-img-2{
+#sharkpoll-img-2 {
     position: absolute;
     /*max-width: 720px;*/
     width: 50vw;
@@ -170,7 +176,7 @@ img {
     cursor: pointer;
 }
 
-#TimeBomb-img{
+#TimeBomb-img {
     position: relative;
     /*max-width: 720px;*/
     width: 50vw;
@@ -191,67 +197,74 @@ img {
 
 #bomb {
     position: absolute;
-    width: 20vw;
+    /*width: 20vw;*/
+    height: 39.9vh;
     top: 3380px;
     left: 11%;
     transform: rotate(-80deg);
     image-rendering: pixelated;
     filter: brightness(75%);
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 #p1 {
     position: absolute;
-    width: 8vw;
+    height: 14.15vh;
+    /*width: 8vw;*/
     top: 3200px;
     left: 23%;
     transform: rotate(-35deg);
     image-rendering: pixelated;
     filter: brightness(75%);
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 #p2 {
     position: absolute;
-    width: 8vw;
+    /*width: 8vw;*/
+    height: 14.15vh;
     top: 2880px;
     left: 36%;
     image-rendering: pixelated;
     filter: brightness(75%);
     transform: scaleX(-1) rotate(20deg);
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 #box-tb {
     position: absolute;
-    width: 8vw;
+    /*width: 8vw;*/
+    height: 12.1vh;
+
     top: 3230px;
     left: 54%;
     image-rendering: pixelated;
     filter: brightness(75%);
     transform: rotate(10deg);
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 #trophy {
     position: absolute;
-    width: 15vw;
+    /*width: 15vw;*/
+    height: 30.9vh;
     top: 3000px;
     left: 66%;
     transform: rotate(-40deg);
     filter: brightness(80%);
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 #explosion {
     position: absolute;
-    width: 40vw;
+    /*width: 40vw;*/
+    height: 72vh;
     top: 3050px;
     left: 37%;
     transform: rotate(0deg);
     filter: brightness(80%);
     image-rendering: pixelated;
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 .layer-0 {
@@ -261,7 +274,7 @@ img {
     align-items: center;
 }
 
-h2{
+h2 {
     font-size: 300%;
 }
 
@@ -274,7 +287,7 @@ h2{
     width: 100%;
 }
 
-#Footer{
+#Footer {
     width: 100%;
     display: flex;
     align-items: center;
@@ -282,8 +295,8 @@ h2{
     flex-direction: row;
 }
 
-#Others-Projects{
-    margin-top:125%;
+#Others-Projects {
+    margin-top: 125%;
     width: 55%;
     margin-left: auto;
     margin-right: auto;
@@ -293,7 +306,7 @@ h2{
     margin-bottom: 20%;
 }
 
-#Others-Projects h2{
+#Others-Projects h2 {
     font-size: 190%;
     margin-top: 1.5%;
 }
@@ -315,21 +328,21 @@ h2{
 }
 
 
-#img-rails{
+#img-rails {
     width: 20vw;
     margin: 2%;
     margin-right: 0;
     object-fit: contain;
 }
 
-#img-scrabble{
+#img-scrabble {
     width: 20vw;
     margin: 2%;
     margin-left: 0;
     object-fit: contain;
 }
 
-.description{
+.description {
     width: 50%;
 }
 
@@ -356,15 +369,17 @@ h2{
     padding: 0;
     border: 0;
     width: 500px;
-    
+
 }
 
 #Contact * {
     font-family: Roboto Slab;
 }
+
 #reponse-mail {
     margin-top: 0;
 }
+
 #Contact {
     display: flex;
     flex-direction: column;
@@ -404,7 +419,8 @@ textarea {
     margin-bottom: 0;
     color: #a1dce6;
 }
-#mail-fom #mail-letter{
+
+#mail-fom #mail-letter {
     margin: 0;
     padding: 0;
 }
@@ -416,25 +432,31 @@ textarea {
     width: 507px;
 }
 
-@media(max-width: 550px){
-    #Contact{
+@media(max-width: 550px) {
+    #Contact {
         font-size: 1.3em;
     }
-    #mail-form input,textarea{
+
+    #mail-form input,
+    textarea {
         width: 460px;
     }
+
     #mail-form #send-button {
         width: 467px;
     }
 }
 
-@media(max-width: 480px){
-    #Contact{
+@media(max-width: 480px) {
+    #Contact {
         font-size: 1.1em;
     }
-    #mail-form input,textarea{
+
+    #mail-form input,
+    textarea {
         width: 370px;
     }
+
     #mail-form #send-button {
         width: 377px;
     }
@@ -455,12 +477,12 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     display: none;
 }
 
 #Header h1 {
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     margin-top: 0px;
     font-size: 7em;
     font-weight: bold;
@@ -526,14 +548,14 @@ body::-webkit-scrollbar{
     height: 100%;
 }
 
-#AboutMe-anchor{
+#AboutMe-anchor {
     display: block;
     position: relative;
     visibility: hidden;
     top: -25%;
 }
 
-#Project-anchor{
+#Project-anchor {
     display: block;
     position: relative;
     visibility: hidden;
@@ -557,7 +579,7 @@ body::-webkit-scrollbar{
     z-index: 1;
 }
 
-.network > a {
+.network>a {
     width: 100%;
     height: 100%;
 }
@@ -608,25 +630,25 @@ i {
     transform: rotate(-20deg);
 }
 
-#word2{
+#word2 {
     left: 68%;
     top: 1045px;
     transform: rotate(15deg);
 }
 
-#word3{
+#word3 {
     left: 43%;
     top: 1040px;
     transform: rotate(-15deg);
 }
 
-#word4{
+#word4 {
     left: 66%;
     top: 615px;
     transform: rotate(20deg);
 }
 
-#word5{
+#word5 {
     left: 14%;
     top: 950px;
     transform: rotate(20deg);

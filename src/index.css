@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --main-color: #FCFFFD;
+  --text-color: #060A07;
+  --accent-color: #C6000C;
+  --grey-color: #DAE0DB;
+  --grey-text: #4A574C;
+  background-color: var(--main-color);
+}
+
+h1,h2,a,h3,h4,p,li {
+  font-family: 'Inter';
+  color: var(--text-color);
+}
+
+span {
+  color: var(--accent-color);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html {
+  scroll-behavior: smooth;
 }

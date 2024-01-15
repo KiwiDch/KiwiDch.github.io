@@ -1,0 +1,29 @@
+.Button {
+    border-radius: 44px;
+    width: 263px;
+    height: 62px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+.Primary {
+    background-color: var(--accent-color);
+    color: var(--main-color);
+}
+
+
+.Secondary {
+    background-color: var(--grey-color);
+    color: var(--text-color);
+}
+
+.Button:hover {
+    /*filter: brightness(75%);*/
+    box-shadow: inset 0 0 0 10em rgba(0, 0, 0, 0.3);
+}

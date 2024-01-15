@@ -1,0 +1,28 @@
+.Skills {
+    margin-top: 13vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Skills h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Skills h2 {
+    font-size: 32px;
+    color: var(--grey-text);
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.SkillsPanel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    flex-wrap: wrap;
+}

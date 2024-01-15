@@ -1,0 +1,29 @@
+.Skill {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 25.8px #4f57513f;
+    border-radius: 15px;
+    padding: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 380px;
+    justify-content: space-between;
+}
+
+.Skill > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.Skill h3 {
+    margin-bottom: 0;
+}
+
+.Skill img {
+    width: 115px;
+    overflow: hidden;
+}

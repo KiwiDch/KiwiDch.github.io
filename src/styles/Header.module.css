@@ -1,0 +1,50 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+}
+
+.Header > * {
+    width: 33%;
+}
+
+
+.Header h1 {
+    margin: 0;
+    margin-left: 20%;
+    font-size: 50px;
+    text-align: left;
+    color: var(--accent-color);
+}
+
+.Header nav {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.Header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+
+}
+
+.Header ul li {
+    margin: auto;
+    font-size: 100%;
+}
+
+.Header a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.Nightmode {
+    visibility: hidden; /*Temporaire*/
+}

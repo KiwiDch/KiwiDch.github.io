@@ -1,0 +1,68 @@
+.AboutMe {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 90%;
+}
+
+.AboutMe h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.AboutMe p {
+    text-align: left;
+    font-size: 24px;
+}
+
+.AboutMe span {
+    font-weight: 600;
+}
+
+.Sub p {
+    width: 569px;
+}
+
+.Educations {
+    width: 550px;
+}
+
+.Education > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Education {
+    display: flex;
+    flex-direction: column;
+}
+
+.Education > p {
+    margin-top: 0;
+}
+
+.Sub h2 {
+    margin-top: 0;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.Sub h3 {
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+.Sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Buttons {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

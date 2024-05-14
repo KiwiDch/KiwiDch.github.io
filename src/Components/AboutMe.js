@@ -34,7 +34,7 @@ function AboutMe() {
                     </div>
                     <div className={style.Buttons}>
                         <Button primary href={CV}>Download CV</Button>
-                        <Button href="#contact">Contact me</Button>
+                        <Button href={Portfolio}>BUT Portfolio</Button>
                     </div>
                 </div>
             </div>

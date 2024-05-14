@@ -30,6 +30,11 @@ import solidity from '../Ressources/solidity.png'
 import bash from '../Ressources/bash.png'
 import zsh from '../Ressources/zsh.png'
 
+import anchor from '../Ressources/anchor.png'
+
+import solana from '../Ressources/solana.png'
+import ethe from '../Ressources/etherum.png'
+
 import SkillPanel from './SkillPanel';
 
 function Skills() {
@@ -39,7 +44,7 @@ function Skills() {
     const imagesOS = [[Macos, "Macos image"], [Linux, "Linux image"], [Windows, "Windows image"]];
     const imagesMobile = [[swift, "Swift image"], [swiftui, "SwiftUi image"]];
     const imagesCICD = [[Gitlab, "Gitlab image"]];
-    const imagesSmartContract = [[solidity, "solidity image"]];
+    const imagesSmartContract = [[solana,"solana image"],[ethe, "ethereum image"]];
     const imagesBdd = [[sql, "sql image"]];
     const imagesShells = [[bash, "bash image"], [zsh, "zsh image"]];
     const imagesVirtu = [[Docker, "docker image"], [Swarm, "swarm image"]];
@@ -59,7 +64,7 @@ function Skills() {
                 <SkillPanel images={imagesShells} name="Scripting" />
                 <SkillPanel images={imagesVirtu} name="Virtualization" />
                 <SkillPanel images={imagesBdd} name="Database" />
-                <SkillPanel images={imagesSmartContract} name="Smart Contract" />
+                <SkillPanel images={imagesSmartContract} name="Blockchain" />
             </div>
         </div>
     );
